@@ -1,0 +1,127 @@
+.post {
+  background: var(--white);
+  border: 1px solid var(--grey);
+  width: 100%;
+  max-width: 700px;
+  padding: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+
+  &:hover {
+    border: 1px solid var(--primary);
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+    .user {
+      display: flex;
+      column-gap: 15px;
+
+      &__avatar {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+      }
+
+      &__right {
+        transform: translateY(10px);
+      }
+
+      &__name {
+        margin-bottom: 10px;
+        color: var(--text);
+      }
+
+      .created-at {
+        color: rgb(112, 112, 112);
+        font-size: 13px;
+      }
+    }
+
+    &__btns {
+      display: flex;
+      align-items: center;
+      column-gap: 5px;
+      border: 1px solid grey;
+      border-radius: 5px;
+      padding: 2px;
+
+      .edit {
+        font-size: 20px;
+        color: var(--primary);
+        padding: 2px;
+        border-radius: 5px;
+        border: 1px solid var(--white);
+
+        &:hover {
+          border: 1px solid var(--primary);
+        }
+      }
+
+      .close {
+        font-size: 22px;
+        color: var(--danger);
+        padding: 2px;
+        border-radius: 5px;
+        border: 1px solid var(--white);
+
+        &:hover {
+          border-color: var(--danger);
+        }
+      }
+    }
+  }
+
+  &__title {
+    margin-bottom: 15px;
+
+    b {
+      color: var(--text);
+    }
+  }
+
+  &__text {
+    margin-bottom: 15px;
+    color: var(--text);
+  }
+
+  &__image {
+    width: 100%;
+    margin-bottom: 20px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &__footer {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+
+    .views,
+    .comms {
+      display: flex;
+      align-items: center;
+      column-gap: 5px;
+      color: var(--text);
+
+      span {
+        font-size: 22px;
+        color: var(--text);
+      }
+    }
+  }
+}
+
+.fullpost .post {
+  cursor: auto;
+
+  &:hover {
+    border: 1px solid var(--grey);
+  }
+}

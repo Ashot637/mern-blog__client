@@ -1,0 +1,55 @@
+.new {
+  width: 100%;
+  max-width: 900px;
+  background: var(--white);
+  padding: 30px;
+
+  .form {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    input,
+    textarea {
+      color: black;
+    }
+
+    .btns {
+      display: flex;
+      column-gap: 10px;
+      margin-bottom: 30px;
+
+      .delete {
+        background: var(--danger);
+        border: none;
+        color: white;
+      }
+    }
+
+    img {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    .input-holder {
+      display: flex;
+      flex-direction: column;
+      row-gap: 10px;
+      margin-bottom: 25px;
+      width: 100%;
+
+      p {
+        color: var(--danger);
+        font-size: 14px;
+        transform: translateX(8px) translateY(5px);
+      }
+    }
+
+    .upload {
+      background: var(--primary);
+      color: var(--white);
+      border: none;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+:root {
+  --primary: #0275d8;
+  --white: #fff;
+  --bg: rgb(245, 245, 245);
+  --grey: #8f8787;
+  --danger: #d9534f;
+  --text: black;
+}
+
+* {
+  color: var(--text);
+}
