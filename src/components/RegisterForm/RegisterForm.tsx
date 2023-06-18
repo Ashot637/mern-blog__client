@@ -75,8 +75,8 @@ const RegisterForm: FC = () => {
             className="avatar"
             src={
               avatarUrl
-                ? 'http://localhost:7777' + avatarUrl
-                : 'http://localhost:7777/uploads/avatar.jpg'
+                ? 'https://mern-blog-api-q3ex.onrender.com' + avatarUrl
+                : 'https://mern-blog-api-q3ex.onrender.com/uploads/avatar.jpg'
             }
             alt=""
           />

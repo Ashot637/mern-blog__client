@@ -45,8 +45,8 @@ const Post: FC<IPostProps> = ({
             <img
               src={
                 user.avatarUrl
-                  ? 'http://localhost:7777' + user.avatarUrl
-                  : 'http://localhost:7777/uploads/avatar.jpg'
+                  ? 'https://mern-blog-api-q3ex.onrender.com' + user.avatarUrl
+                  : 'https://mern-blog-api-q3ex.onrender.com/uploads/avatar.jpg'
               }
               alt="avatar"
               className="user__avatar"
@@ -74,7 +74,7 @@ const Post: FC<IPostProps> = ({
       <div className="post__text">{text}</div>
       {imageUrl && (
         <div className="post__image">
-          <img src={'http://localhost:7777' + imageUrl} alt="" />
+          <img src={'https://mern-blog-api-q3ex.onrender.com' + imageUrl} alt="" />
         </div>
       )}
       <div className="post__footer">

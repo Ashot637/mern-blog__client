@@ -48,8 +48,8 @@ const Header: FC = memo(() => {
                       <img
                         src={
                           user.avatarUrl
-                            ? 'http://localhost:7777' + user.avatarUrl
-                            : 'http://localhost:7777/uploads/avatar.jpg'
+                            ? 'https://mern-blog-api-q3ex.onrender.com' + user.avatarUrl
+                            : 'https://mern-blog-api-q3ex.onrender.com/uploads/avatar.jpg'
                         }
                         alt="avatar"
                         className="user__avatar"

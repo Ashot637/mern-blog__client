@@ -99,7 +99,7 @@ const NewPost: FC<INewPostProps> = ({ isEditMode }) => {
               </button>
             )}
           </div>
-          {imageUrl && <img src={'http://localhost:7777' + imageUrl} alt="" />}
+          {imageUrl && <img src={'https://mern-blog-api-q3ex.onrender.com' + imageUrl} alt="" />}
           <div className="input-holder">
             <label>Title</label>
             <input
